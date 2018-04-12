@@ -60295,7 +60295,7 @@ var MenuBar = function (_React$Component3) {
           'div',
           {
             style: {
-              borderBottom: "2px solid " + _FixionalTheme2.default.palette.primaryColor,
+              borderBottom: "1px solid #707070",
               position: "fixed",
               top: 0,
               height: "4em",

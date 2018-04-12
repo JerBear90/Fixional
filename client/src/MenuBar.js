@@ -228,7 +228,7 @@ class MenuBar extends React.Component {
       <div>
         <div
           style={{
-            borderBottom: "2px solid " + FixionalTheme.palette.primaryColor,
+            borderBottom: "1px solid #707070",
             position: "fixed",
             top: 0,
             height: "3em",
