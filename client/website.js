@@ -12855,16 +12855,16 @@ var Panel = function (_React$Component) {
       var imageAdjustStyle = itemImageStyle;
       var textAdjustStyle = itemTextStyle;
       var buttonLabelAdjustStyle = buttonLabelStyle;
-      var titleFontSize = "3.5em";
-      var subTitleFontSize = "2em";
+      var titleFontSize = "2.5em";
+      var subTitleFontSize = "1.5em";
 
       if (this.state.virt == true) {
         boxAdjustStyle = boxVirtStyle;
         imageAdjustStyle = itemImageVirtStyle;
         textAdjustStyle = itemTextVirtStyle;
         buttonLabelAdjustStyle = buttonLabelVirtStyle;
-        subTitleFontSize = "2em";
-        titleFontSize = "3.5em";
+        subTitleFontSize = "1.5em";
+        titleFontSize = "2.5em";
       } else {
 
         boxAdjustStyle = boxStyle;
@@ -39245,8 +39245,8 @@ var TopPanel = function (_React$Component) {
 
       var headerAdjustStyle = _lodash2.default.clone(headerStyle);
       var headerImageAdjustStyle = _lodash2.default.clone(headerImageStyle);
-      var titleFontSize = "3.5em";
-      var subTitleFontSize = "2em";
+      var titleFontSize = "2.5em";
+      var subTitleFontSize = "1.5em";
       var buttonFontSize = "1.5em";
 
       var buttonStyle = {};
@@ -39256,7 +39256,7 @@ var TopPanel = function (_React$Component) {
         headerAdjustStyle.justifyContent = "flex-start";
         headerImageAdjustStyle.width = "75%";
       } else {
-        subTitleFontSize = "2em";
+        subTitleFontSize = "1.5em";
         titleFontSize = "3em";
         buttonStyle = { padding: "1em", width: "100%", backgroundColor: _FixionalTheme2.default.palette.primaryColor, fontSize: buttonFontSize, textTransform: "none" };
       }
@@ -69592,7 +69592,7 @@ var Pricing = function (_React$Component2) {
           { style: {
               textAlign: "center",
               color: _FixionalTheme2.default.palette.secondaryTextColor,
-              fontSize: "3.5em"
+              fontSize: "2.5em"
             } },
           "Find a plan"
         ),
