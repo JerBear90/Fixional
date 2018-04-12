@@ -39999,7 +39999,7 @@ var Application = function (_React$Component) {
                   */{ label: "Pricing", location: "/pricing" /*,
                   {label: "Features", location: "/features"}*/ }]
                 }, {
-                  title: "Resources",
+                  title: "",
                   links: [/*{label: "White Paper", location: "/whitepaper"}*/]
                 }],
 
