@@ -60106,8 +60106,7 @@ var MenuText = function (_React$Component) {
         null,
         _react2.default.createElement(
           'style',
-          null,
-          ".activeLink *{font-weight: bold !important;}"
+          null
         ),
         links,
         logout

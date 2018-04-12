@@ -81,7 +81,6 @@ class MenuText extends React.Component {
 
     return(
       <span>
-        <style>{".activeLink *{font-weight: bold !important;}"}</style>
         {links}
 
         {logout}
