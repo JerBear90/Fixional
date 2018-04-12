@@ -12789,9 +12789,9 @@ var itemImageVirtStyle = {
 
 var itemTextVirtStyle = {
   width: "80%",
-  marginTop: "8vh"
-  //textAlign: "center"
-  //alignSelf: "flex-start"
+  marginTop: "8vh",
+  textAlign: "left",
+  alignSelf: "flex-start"
 };
 
 var buttonLabelVirtStyle = {
@@ -68062,9 +68062,9 @@ var TopFooter = function (_React$Component) {
         sectionTitles.push(_react2.default.createElement(
           'th',
           { key: i, style: {
-              textAlign: align,
+              textAlign: "left",
               color: _FixionalTheme2.default.palette.primaryColor,
-              fontSize: "1.5em"
+              fontSize: "1.4em"
             } },
           section.title
         ));
@@ -68077,8 +68077,7 @@ var TopFooter = function (_React$Component) {
 
       var buttonStyle = { fontSize: "1.5em" };
       var linkStyle = {
-        fontSize: "1.3em",
-        textAlign: "center",
+        fontSize: "1.2em",
         color: _FixionalTheme2.default.palette.primaryColor
       };
       if (this.state.virt == true) {
