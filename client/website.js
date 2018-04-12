@@ -39973,7 +39973,9 @@ var Application = function (_React$Component) {
 
                 home: { location: "/home" },
 
-                links: [{ label: "Why Fixional?", location: "/why" }, { label: "Pricing", location: "/pricing" }, { label: "Log In", location: "/login" }]
+                links: [{ label: "Why Fixional?", location: "/why" },
+                // { label: "Pricing", location: "/pricing" }, 
+                { label: "Log In", location: "/login" }]
 
               }),
               _react2.default.createElement(
