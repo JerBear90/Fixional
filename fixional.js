@@ -42,6 +42,7 @@ router.get('/home', async (ctx, next) => {
 router.get('/why', async (ctx, next) => {
   return ctx.render("website");
 });
+
 router.get('/pricing', async (ctx, next) => {
   return ctx.render("website");
 });

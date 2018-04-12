@@ -48,7 +48,7 @@ class Application extends React.Component {
 
             links={[
               {label: "Why Fixional?", location: "/why"},
-              {label: "Pricing", location: "/pricing"},
+              // {label: "Pricing", location: "/pricing"},
               {label: "Log In", location: "/login"},
             ]}
 
@@ -71,7 +71,10 @@ class Application extends React.Component {
               },
               {
                 title: "Software",
-                links: [/*{label: "Use Cases", location: "/usecases"},*/ {label: "Pricing", location: "/pricing"}/*, {label: "Features", location: "/features"}*/]
+                links: [
+                  // {label: "Use Cases", location: "/usecases"},
+                  // {label: "Pricing", location: "/pricing"},
+                  // {label: "Features", location: "/features"}]
               },
               {
                 title: "Resources",

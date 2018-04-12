@@ -39974,7 +39974,6 @@ var Application = function (_React$Component) {
                 home: { location: "/home" },
 
                 links: [{ label: "Why Fixional?", location: "/why" },
-                // { label: "Pricing", location: "/pricing" }, 
                 { label: "Log In", location: "/login" }]
 
               }),
@@ -39984,7 +39983,7 @@ var Application = function (_React$Component) {
                 _react2.default.createElement(_reactRouterDom.Redirect, { exact: true, path: '/', to: '/home' }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/home', component: _Home2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/why', component: _Why2.default }),
-                _react2.default.createElement(_reactRouterDom.Route, { path: '/pricing', component: _Pricing2.default }),
+                // _react2.default.createElement(_reactRouterDom.Route, { path: '/pricing', component: _Pricing2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/login', component: _Login2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _About2.default })
@@ -39996,7 +39995,9 @@ var Application = function (_React$Component) {
                   links: [{ label: "About", location: "/about" }, /*{label: "Blog", location: "/blog"},*/{ label: "Contact", location: "/contact" }]
                 }, {
                   title: "Software",
-                  links: [/*{label: "Use Cases", location: "/usecases"},*/{ label: "Pricing", location: "/pricing" /*, {label: "Features", location: "/features"}*/ }]
+                  links: [/*{label: "Use Cases", location: "/usecases"},
+                  */{ label: "Pricing", location: "/pricing" /*,
+                  {label: "Features", location: "/features"}*/ }]
                 }, {
                   title: "Resources",
                   links: [/*{label: "White Paper", location: "/whitepaper"}*/]
@@ -68348,6 +68349,11 @@ var BottomFooter = function (_React$Component2) {
         textAlign: "center"
       };
 
+      var copyRightInformation = {
+        fontSize: "1em",
+        textAlign: "center"
+      }
+
       if (this.state.virt == true) {
         cell2Style = cellStyle;
       }
@@ -68355,7 +68361,7 @@ var BottomFooter = function (_React$Component2) {
       var cell2 = _react2.default.createElement(
         'div',
         {
-          style: cell2Style
+          style: copyRightInformation
         },
         this.props.email
       );
