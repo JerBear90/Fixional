@@ -1,0 +1,114 @@
+<html>
+<head>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fixional</title>
+  <link rel="icon" href="./images/favicon.png" type="image/png">
+  <style>
+    #application, body{
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      border: none;
+    }
+    a{
+      text-decoration: none;
+    }
+    *{
+      box-sizing: content-box;
+    }
+
+    /* Move to Correct location */
+    .section{
+      /* width:60%; */
+      margin: auto;
+      margin-top: 2.5vh;
+      color: rgb(158, 158, 158);
+    }
+    .about-section{
+      width:60%;
+      margin: auto;
+      margin-top: 2.5vh;
+      font-size: 2em;
+      color: rgb(158, 158, 158);
+    }
+    .presentation{
+      width: 100%;
+      margin-top: 2em;
+      padding: 20px 0px;
+    }
+
+    .logo{
+      height: 1.8em;
+    }
+    .footer-logo{
+      height: 2em;
+      margin-bottom: 20px;
+      display: block;
+      margin: 10px auto 15px auto;
+    }
+    .top-footer{
+      margin-top: 10px;
+    }
+
+    .verticalBox{
+      display: flex;
+      flex-basis: 0;
+      justify-content: center;
+      align-items: center;
+      font-size: 1em;
+      font-weight: bold;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      flex-grow: 1
+    }
+
+    h1{
+      font-size: 4rem;
+      font-weight: normal;
+    }
+
+    .btn-spacing{
+      margin: 15px 0px 20px 0px !important;
+    }
+    @media screen and (min-width: 671px) {
+      .horizontalBox{
+        display: flex;
+        flex-basis: 0;
+        justify-content: center;
+        align-items: stretch;
+        flex-grow: 1;
+      }
+    }
+
+    td{
+      width: 33%;
+    }
+    /* Small Devices */
+    @media screen and (max-width: 670px) {
+      .section{
+        width:80%;
+      }
+      .about-section{
+        width:80%;
+        font-size: 1.5em;
+      }
+      .horizontalBox{
+        display: block;
+      }
+      .logo{
+        height:1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="application"></div>
+  <script src="website.js"></script>
+</body>
