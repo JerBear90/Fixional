@@ -39290,7 +39290,7 @@ var TopPanel = function (_React$Component) {
           ),
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/contact' },
+            { to: 'http://eepurl.com/dk0xML' },
             _react2.default.createElement(
               _Button2.default,
               { style: buttonStyle, className: 'btn-spacing', color: 'primary', variant: 'raised' },
@@ -68766,7 +68766,7 @@ var Home = function (_React$Component) {
           title: 'For Editors, Authors, & Gold Miners',
           subTitle: 'Smart software for discovering content, analyzing text, and streamlining workflows.',
           buttonText: 'Try It Out',
-          buttonPath: '/contact',
+          buttonPath: 'http://eepurl.com/dk0xML',
           image: './images/home0.svg',
           imageAlt: 'Busy editor buried in work'
         }),
@@ -68776,7 +68776,7 @@ var Home = function (_React$Component) {
           headers: ["New insights.", "New possibilities."],
           text: ["How much more could you accomplish if your digital proofreader also looked at narrative, tone, theme, style, and originality?"],
           buttonText: 'See what\'s possible.',
-          buttonPath: '/contact'
+          buttonPath: 'http://eepurl.com/dk0xML'
         }),
         _react2.default.createElement(_Panel2.default, {
           image: './images/home2.svg',
@@ -68784,7 +68784,7 @@ var Home = function (_React$Component) {
           headers: ["Save time.", "Save money."],
           text: ["Fixional can reduce your team's acquisition costs by more than 300% and help you spend more time doing what you love: reading and editing."],
           buttonText: 'Learn what fixional can do.',
-          buttonPath: '/contact',
+          buttonPath: 'http://eepurl.com/dk0xML',
           textFirst: true,
           style: {
             backgroundColor: _FixionalTheme2.default.palette.alternateBackgroundColor
@@ -68796,7 +68796,7 @@ var Home = function (_React$Component) {
           headers: ["Your high standards.", "Upheld at scale."],
           text: ["Fixional helps you review and explore thousands of manuscripts within moments.", "You can sort by quality, relevance, and fit so you can reply back to authors in days, not months."],
           buttonText: 'See how fixional can help.',
-          buttonPath: '/contact'
+          buttonPath: 'http://eepurl.com/dk0xML'
         }),
         _react2.default.createElement(_BottomPanel2.default, null)
       );
@@ -69377,7 +69377,7 @@ var Why = function (_React$Component) {
           title: 'Why Fixional?',
           subTitle: 'You have more work than you have time and could use some help.',
           buttonText: 'Try It Out',
-          buttonPath: '/contact',
+          buttonPath: 'http://eepurl.com/dk0xML',
           image: './images/why0.svg',
           imageAlt: 'Busy editor with more work than time',
           spaceImage: true
@@ -69388,7 +69388,7 @@ var Why = function (_React$Component) {
           headers: ["You have some doubts"],
           text: ["about the stories you're reviewing.", "Use Fixional to make more informed decisions about which works to publish, which to give closer review, and where to make improvements."],
           buttonText: 'See how fixional can help.',
-          buttonPath: '/contact'
+          buttonPath: 'http://eepurl.com/dk0xML'
         }),
         _react2.default.createElement(_Panel2.default, {
           image: './images/why2.svg',
@@ -69396,7 +69396,7 @@ var Why = function (_React$Component) {
           headers: ["Your writing is stuck"],
           text: ["and you need help that goes deeper than grammar and punctuation.", "What if you could see exactly where you might be losing readers?"],
           buttonText: 'Learn what fixional can do.',
-          buttonPath: '/contact',
+          buttonPath: 'http://eepurl.com/dk0xML',
           textFirst: true,
           style: {
             backgroundColor: _FixionalTheme2.default.palette.alternateBackgroundColor
@@ -69408,7 +69408,7 @@ var Why = function (_React$Component) {
           headers: ["You have high standards"],
           text: ["and only publish the best works you can find.", "What if you could review more submissions and respond more quickly to authors?"],
           buttonText: 'See what\'s possible.',
-          buttonPath: '/contact'
+          buttonPath: 'http://eepurl.com/dk0xML'
         }),
         _react2.default.createElement(_BottomPanel2.default, null)
       );
@@ -69546,7 +69546,7 @@ var Plan = function (_React$Component) {
         ),
         _react2.default.createElement(
           _reactRouterDom.Link,
-          { to: '/contact' },
+          { to: 'http://eepurl.com/dk0xML' },
           _react2.default.createElement(
             _Button2.default,
             { variant: 'raised', color: 'primary', label: 'Let\'s Try', style: {
